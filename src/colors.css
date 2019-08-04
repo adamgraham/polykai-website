@@ -1,0 +1,13 @@
+.color-background { color: #141818; }
+.color-current-line { color: #1e2424; }
+.color-selection { color: #3c4848; }
+.color-comment { color: #909090; }
+.color-foreground { color: #f8f8f8; }
+.color-string { color: #ffe080; }
+.color-property { color: #ffb000; }
+.color-type { color: #ff9020; }
+.color-keyword { color: #ff0060; }
+.color-number { color: #c080ff; }
+.color-constant { color: #6080ff; }
+.color-function { color: #40c4ff; }
+.color-class { color: #a0ff20; }

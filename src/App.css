@@ -1,0 +1,74 @@
+.App {
+  display: block;
+  min-height: 100vh;
+  padding: 5%;
+  background-color: #141818;
+  overflow: hidden;
+}
+
+.App header, .App footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .title {
+  margin-top: 0.25em;
+  margin-bottom: 2em;
+  font-family: 'monofur';
+}
+
+.App .title .large {
+  font-size: 3em;
+}
+
+.App .title .medium {
+  font-size: 2em;
+}
+
+.App .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  padding: 1em;
+  /* min-width: 100vw;
+  background-color: #1e2424; */
+}
+
+.App .screenshot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.App .screenshot img {
+  cursor: pointer;
+  max-width: 1280px;
+}
+
+.App .icon img {
+  max-width: 128px;
+}
+
+@media screen and (max-width: 491px) {
+  .App .description .line-one {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .App .icon img {
+    max-width: 64px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .App .screenshot img {
+    max-width: 100%;
+  }
+}
