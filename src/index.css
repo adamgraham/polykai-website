@@ -28,8 +28,8 @@ a:hover {
   font-family: 'monofur';
   font-style: normal;
   font-weight: 400;
-  src: url('./monofur.ttf');
-  src: local('monofur')
+  src: url('./monofur.ttf'),
+       local('monofur');
 }
 
 @media screen and (max-width: 767px) {
