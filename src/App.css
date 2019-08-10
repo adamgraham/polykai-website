@@ -2,7 +2,7 @@
   display: block;
   min-height: 100vh;
   padding: 5%;
-  background-color: #141818;
+  background-color: #1e2424;
   overflow: hidden;
 }
 
@@ -34,8 +34,6 @@
   align-items: center;
   margin-bottom: 1em;
   padding: 1em;
-  /* min-width: 100vw;
-  background-color: #1e2424; */
 }
 
 .App .screenshot {
