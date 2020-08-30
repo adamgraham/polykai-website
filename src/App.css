@@ -6,7 +6,9 @@
   overflow: hidden;
 }
 
-.App header, .App footer {
+.App header,
+.App main,
+.App footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,6 +37,37 @@
   margin-bottom: 1em;
   padding: 1em;
 }
+
+.App .color-palette {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  max-width: 300px;
+}
+
+.App .color-blob {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: white;
+}
+
+.App .color-blob.background { background-color: #141818; }
+.App .color-blob.current-line { background-color: #1e2424; }
+.App .color-blob.selection { background-color: #3c4848; }
+.App .color-blob.comment { background-color: #909090; }
+.App .color-blob.foreground { background-color: #f8f8f8; }
+.App .color-blob.string { background-color: #ffe080; }
+.App .color-blob.property { background-color: #ffb000; }
+.App .color-blob.type { background-color: #ff9020; }
+.App .color-blob.keyword { background-color: #ff0060; }
+.App .color-blob.number { background-color: #c080ff; }
+.App .color-blob.constant { background-color: #6080ff; }
+.App .color-blob.function { background-color: #40c4ff; }
+.App .color-blob.class { background-color: #a0ff20; }
 
 .App .screenshot {
   display: flex;

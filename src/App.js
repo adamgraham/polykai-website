@@ -1,5 +1,5 @@
 import React from 'react';
-import GitHubButton from 'react-github-btn'
+// import GitHubButton from 'react-github-btn'
 import Lightbox from 'react-image-lightbox';
 
 import './App.css';
@@ -50,7 +50,7 @@ class App extends React.Component {
               <a href={LINKS.repo} target="_blank" rel="noopener noreferrer">GitHub</a>
             </span>
           </div>
-          <div className="github-buttons">
+          {/* <div className="github-buttons">
             <GitHubButton
               href={LINKS.repo}
               data-icon="octicon-star"
@@ -70,9 +70,23 @@ class App extends React.Component {
             >
               Fork
             </GitHubButton>
-          </div>
+          </div> */}
         </header>
         <main>
+          <section className="color-palette">
+            <span className="color-blob background" title="Background" />
+            <span className="color-blob selection" title="Selection" />
+            <span className="color-blob comment" title="Comment" />
+            <span className="color-blob foreground" title="Foreground" />
+            <span className="color-blob string" title="String" />
+            <span className="color-blob property" title="Property" />
+            <span className="color-blob type" title="Type" />
+            <span className="color-blob keyword" title="Keyword" />
+            <span className="color-blob number" title="Number" />
+            <span className="color-blob constant" title="Constant" />
+            <span className="color-blob function" title="Function" />
+            <span className="color-blob class" title="Class" />
+          </section>
           <section className="screenshot">
             <img src={screenshot} alt="screenshot" onClick={() => this.setState({ isScreenshotOpen: true })} />
             {isScreenshotOpen && (<Lightbox mainSrc={screenshot} enableZoom={false} onCloseRequest={() => this.setState({ isScreenshotOpen: false })} />)}
@@ -91,7 +105,6 @@ class App extends React.Component {
       </div>
     );
   }
-  
 }
 
 export default App;
