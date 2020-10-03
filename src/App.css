@@ -77,7 +77,14 @@
   margin: 2em 0;
 }
 
-.App .screenshot img {
+.App .screenshot > button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.App .screenshot > button > img {
   cursor: pointer;
   max-width: 1280px;
 }
