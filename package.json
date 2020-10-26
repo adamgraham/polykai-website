@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build -b dist -m \"Deploy build to GitHub pages\"",
+    "deploy": "gh-pages -d build -b dist -m \"Publish build to GitHub pages\"",
     "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
     "lint:fix": "eslint --fix src/**/*.{js,jsx,ts,tsx}"
   },
