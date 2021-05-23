@@ -13,7 +13,7 @@ const LINKS = {
   repo: 'https://github.com/adamgraham/polykai',
   repoFork: 'https://github.com/adamgraham/polykai/fork',
   license: 'https://github.com/adamgraham/polykai/blob/master/LICENSE',
-  portfolio: 'https://www.adamgraham.io/',
+  adamgraham: 'https://github.com/adamgraham',
   monokai: 'https://github.com/monokai',
 };
 
@@ -111,7 +111,7 @@ const App = () => {
             ❤️{' '}
           </span>
           by{' '}
-          <a href={LINKS.portfolio} target="_blank" rel="noopener noreferrer">
+          <a href={LINKS.adamgraham} target="_blank" rel="noopener noreferrer">
             Adam Graham
           </a>
         </span>
