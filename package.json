@@ -1,7 +1,7 @@
 {
   "name": "@adamgraham/polykai",
   "version": "1.1.7",
-  "homepage": "https://polykai.com",
+  "homepage": "https://adamgraham.github.io/polykai-website/",
   "private": true,
   "dependencies": {
     "react": "^16.13.1",
