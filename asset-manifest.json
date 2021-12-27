@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.03f3d559.chunk.css",
-    "main.js": "/static/js/main.f5774cf6.chunk.js",
-    "main.js.map": "/static/js/main.f5774cf6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.894078a2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.894078a2.js.map",
-    "static/css/2.ab18fb39.chunk.css": "/static/css/2.ab18fb39.chunk.css",
-    "static/js/2.827a243d.chunk.js": "/static/js/2.827a243d.chunk.js",
-    "static/js/2.827a243d.chunk.js.map": "/static/js/2.827a243d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.ab18fb39.chunk.css.map": "/static/css/2.ab18fb39.chunk.css.map",
-    "static/css/main.03f3d559.chunk.css.map": "/static/css/main.03f3d559.chunk.css.map",
-    "static/js/2.827a243d.chunk.js.LICENSE.txt": "/static/js/2.827a243d.chunk.js.LICENSE.txt",
-    "static/media/icon.8998cf29.png": "/static/media/icon.8998cf29.png",
-    "static/media/index.css": "/static/media/monofur.e63adfdf.ttf",
-    "static/media/screenshot.da1c49dc.png": "/static/media/screenshot.da1c49dc.png"
+    "main.css": "/polykai-website/static/css/main.a712d449.chunk.css",
+    "main.js": "/polykai-website/static/js/main.f5774cf6.chunk.js",
+    "main.js.map": "/polykai-website/static/js/main.f5774cf6.chunk.js.map",
+    "runtime-main.js": "/polykai-website/static/js/runtime-main.a8dd2ac2.js",
+    "runtime-main.js.map": "/polykai-website/static/js/runtime-main.a8dd2ac2.js.map",
+    "static/css/2.ab18fb39.chunk.css": "/polykai-website/static/css/2.ab18fb39.chunk.css",
+    "static/js/2.827a243d.chunk.js": "/polykai-website/static/js/2.827a243d.chunk.js",
+    "static/js/2.827a243d.chunk.js.map": "/polykai-website/static/js/2.827a243d.chunk.js.map",
+    "index.html": "/polykai-website/index.html",
+    "static/css/2.ab18fb39.chunk.css.map": "/polykai-website/static/css/2.ab18fb39.chunk.css.map",
+    "static/css/main.a712d449.chunk.css.map": "/polykai-website/static/css/main.a712d449.chunk.css.map",
+    "static/js/2.827a243d.chunk.js.LICENSE.txt": "/polykai-website/static/js/2.827a243d.chunk.js.LICENSE.txt",
+    "static/media/icon.8998cf29.png": "/polykai-website/static/media/icon.8998cf29.png",
+    "static/media/index.css": "/polykai-website/static/media/monofur.e63adfdf.ttf",
+    "static/media/screenshot.da1c49dc.png": "/polykai-website/static/media/screenshot.da1c49dc.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.894078a2.js",
+    "static/js/runtime-main.a8dd2ac2.js",
     "static/css/2.ab18fb39.chunk.css",
     "static/js/2.827a243d.chunk.js",
-    "static/css/main.03f3d559.chunk.css",
+    "static/css/main.a712d449.chunk.css",
     "static/js/main.f5774cf6.chunk.js"
   ]
 }
