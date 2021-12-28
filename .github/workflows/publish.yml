@@ -22,14 +22,10 @@ jobs:
 
       - name: Install
         run: npm install
-        env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build
         continue-on-error: false
         run: npm run-script build
-        env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish
         if: github.event_name == 'push'
